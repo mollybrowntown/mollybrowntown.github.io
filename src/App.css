@@ -1,0 +1,244 @@
+.navbar{
+  font-family: 'Bebas Neue';
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.nav-link{
+  font-size: 1.5em;
+}
+.nav-link.active{
+  color:rgba(255,255,255,.5)!important;
+}
+.card .nav-link.active{
+  color:#007bff!important;
+}
+/*
+.nav-link a:hover {
+  color: #32673f;
+}*/
+.nav-link:focus, .nav-link:hover {
+    /*color: rgba(255,255,255,.75);*/
+    /*color:blue;*/
+}
+/*a:hover{
+  color:black;
+}*/
+.main-grid{
+  width:100%;
+  height:100%;
+  padding-top:100px;
+}
+/*.carousel-caption {
+    top: 100px;
+    bottom: auto;
+}*/
+/*.main-photos{
+  width:100%;
+  height:100%;
+  padding-top:50px;
+}*/
+.main-photos h1{
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  color:#4286f4;
+}
+.main-photos h3{
+  font-family: 'Francois One', sans-serif;
+  /*font-size: 1em;*/
+  color:#4286f4;
+}
+.carousel-item > img {
+  width: 100%;
+}
+/*.carousel-caption{
+  background-color: #373B44;
+  opacity:0.8;
+  border-radius: 10px;
+}*/
+.roster-grid{
+  display: flex;
+  flex-wrap: wrap;
+  /*flex: 1 0 calc(25% - 10px);*/
+  margin:0 auto;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+@media(min-width: 200px) {
+  .card {
+    display: block;
+    flex-basis: 90%;
+  }
+}
+@media(min-width: 600px) {
+  .card {
+    display: block;
+    flex-basis: 33%;
+  }
+}
+@media(min-width: 1200px) {
+  .card {
+    display: block;
+    flex-basis: 25%;
+  }
+}
+.card{
+  margin-top:10px;
+}
+.roster{
+  padding-bottom: 30px;
+}
+.roster-header{
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  margin:30px;
+  color:#373B44;
+}
+.roster hr{
+  border-top: 5px solid #4286f4;
+  width: 50%;
+  /*margin:auto;*/
+}
+.roster-footer{
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  margin:30px;
+  color:#373B44;
+  /*font-size: 1.5vw;*/
+}
+.roster-grid-mob{
+  white-space: pre-line;
+  /*margin-left: 2em;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
+  text-align: center;
+  /*text-align: center;*/
+}
+.roster-mob{
+  /*text-align: left;*/
+  margin-bottom: 0;
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+.sponsor{
+  padding-bottom:30px;
+}
+.sponsor-grid{
+  display:flex;
+  justify-content: space-between;
+  /*background-color: #4286f4*/
+}
+.sponsor hr{
+  border-top: 5px solid #4286f4;
+  width: 50%;
+  /*margin:auto;*/
+}
+.sponsor-header{
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  margin:30px;
+  color:#373B44;
+}
+.about{
+  background-color:#373B44;
+  padding-top:30px;
+  padding-bottom: 30px;
+  /*position:relative;*/
+}
+.about hr{
+  border-top: 5px solid #4286f4;
+  width: 50%;
+  /*margin:auto;*/
+}
+.about-header{
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  margin-bottom:30px;
+  color:white;
+}
+.schedule{
+  background-color:#373B44;
+  padding-top:30px;
+  padding-bottom:30px;
+  justify-content: center;
+  /*text-align: center;*/
+  align-items: center;
+}
+.schedule hr{
+  border-top: 5px solid #4286f4;
+  width: 50%;
+
+  /*margin:auto;*/
+}
+.schedule-header{
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  margin-bottom:30px;
+  color:white;
+}
+.schedule-grid{
+  width:80%;
+  margin:0 auto;
+}
+.schedule-grid .nav-link{
+  font-size: 18px;
+}
+.accordion .card-header{
+  cursor: pointer;
+  color:#4286f4;
+}
+.contact{
+  background-color:#373B44;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.contact hr{
+  border-top: 5px solid #4286f4;
+  width: 50%;
+  /*margin:auto;*/
+}
+.contact-header{
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  margin-bottom:30px;
+  color:white;
+}
+.contact-email,.contact-socials{
+  text-align: center;
+}
+.contact-email i{
+  color: white;
+  padding: 8px;
+}
+@media(min-width: 700px) {
+  .contact-email i{
+    font-size: 2em;
+  }
+  .contact-email span{
+    font-size: 2em;
+  }
+  .contact-socials i{
+    font-size: 2em;
+  }
+}
+@media(max-width: 700px) {
+  .contact-email i{
+    font-size: 1.5em;
+  }
+  .contact-email span{
+    font-size: 1.5em;
+  }
+  .contact-socials i{
+    font-size: 1.5em;
+  }
+}
+.contact-email span{
+  color: white;
+  padding: 8px;
+  font-family: 'Francois One', sans-serif;
+}
+.contact-socials i{
+  color: #4286f4;
+  padding: 8px;
+}

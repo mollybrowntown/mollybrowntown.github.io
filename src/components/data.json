@@ -1,0 +1,487 @@
+{
+  "current":[
+    {
+      "name": "Alika Johnston* #13",
+      "nickname":"Leeks",
+      "pronoun":"She/Her",
+      "years": "3",
+      "hometown":"Arlington, VA",
+      "birthday":"3/13",
+      "birthdayLong":"3/13/1994",
+      "college":"University of Virginia Hydra",
+      "prevTeam":"Scandal",
+      "enneagram":"2",
+      "image": "./images/alikajohnston.jpg"
+    },
+    {
+      "name": "Allysha Dixon #22",
+      "nickname":"Llysh",
+      "pronoun":"She/Her",
+      "years": "2",
+      "hometown":"Spring Valley, NY",
+      "birthday":"9/23",
+      "birthdayLong":"9/23/2018",
+      "college":"Philadelphia University",
+      "prevTeam":"AMP",
+      "enneagram":"",
+      "image": "./images/allyshadixon.jpg"
+    },{
+      "name": "Bert Abbott #33",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Seattle, WA",
+      "birthday":"10/25",
+      "birthdayLong":"10/25/1988",
+      "college":"University of Washington",
+      "prevTeam":"Seattle Mixtape",
+      "enneagram":"",
+      "image": "./images/bertabbott.jpg"
+    },
+    {
+      "name": "Chelsea Twohig #10",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "2",
+      "hometown":"Campbellsport, WI",
+      "birthday":"12/26",
+      "birthdayLong":"12/26/1984",
+      "college":"University of Iowa Saucy Nancy",
+      "prevTeam":"Schwa, Heist, CLX",
+      "enneagram":"",
+      "image": "./images/chelseatwohig.jpg"
+    },
+    {
+      "name": "Chip Chang #40",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Los Angeles, CA",
+      "birthday":"12/12",
+      "birthdayLong":"12/12/1991",
+      "college":"UC San Diego Dragon Coalition, UCLA BLU",
+      "prevTeam":"Pop, Drag'n Thrust",
+      "enneagram":"6",
+      "image": "./images/chipchang.jpg"
+    },
+    {
+      "name": "Claire Chastain* #52",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "6",
+      "hometown":"Wilmington, NC",
+      "birthday":"6/14",
+      "birthdayLong":"6/14/1990",
+      "college":"UNCW",
+      "prevTeam":"Phoenix",
+      "enneagram":"1",
+      "image": "./images/clairechastain.jpg"
+    },
+    {
+      "name": "Emma Capra #17",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Denver, CO",
+      "birthday":"6/25",
+      "birthdayLong":"6/25/1997",
+      "college":"Colorado Kali",
+      "prevTeam":"Jackwagon",
+      "enneagram":"2",
+      "image": "./images/emmacapra.jpg"
+    },
+    {
+      "name": "Jesse Shofner #2",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "3",
+      "hometown":"Nashville, TN",
+      "birthday":"7/16",
+      "birthdayLong":"7/16/1993",
+      "college":"University of Oregon Fugue",
+      "prevTeam":"Guillermo y Comapnia, Desoto, Schwa, Scandal",
+      "enneagram":"2",
+      "image": "./images/jesseshofner.jpg"
+    },
+    {
+      "name": "Lisa Pitcaithley* #26",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "4",
+      "hometown":"Pleasanton, CA",
+      "birthday":"5/8",
+      "birthdayLong":"5/8/1992",
+      "college":"UCSB",
+      "prevTeam":"Fury",
+      "enneagram":"7",
+      "image": "./images/lisapitcaithley.jpg"
+    },
+    {
+      "name": "Liz Narmour #12",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "2",
+      "hometown":"Ames, IA",
+      "birthday":"9/25",
+      "birthdayLong":"9/25/1993",
+      "college":"Iowa State Woman Scorned",
+      "prevTeam":"The Chad Larson Experience, Heist, Small Batch",
+      "enneagram":"1",
+      "image": "./images/liznarmour.jpg"
+    },
+    {
+      "name": "Liza Minor #3",
+      "nickname":"Lizer",
+      "pronoun":"She/Her",
+      "years": "3",
+      "hometown":"Iowa City, IA",
+      "birthday":"5/12",
+      "birthdayLong":"5/12/1991",
+      "college":"University of Iowa Saucy Nancy",
+      "prevTeam":"Scientific Method, Revoloution, PanIC, Heist",
+      "enneagram":"3w2",
+      "image": "./images/lizaminor.jpg"
+    },
+    {
+      "name": "Manuela Cárdenas #8",
+      "nickname":"Manu",
+      "pronoun":"She/Her",
+      "years": "3",
+      "hometown":"Medellin, COL",
+      "birthday":"7/28",
+      "birthdayLong":"7/28/1999",
+      "college":"University Eafit",
+      "prevTeam":"Revolution",
+      "enneagram":"7",
+      "image": "./images/manuelacardenas.jpg"
+    },
+    {
+      "name": "Meg Henderson #11",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Lakewood, CO",
+      "birthday":"12/12",
+      "birthdayLong":"12/12/1995",
+      "college":"Colorado Kali",
+      "prevTeam":"Love Tractor",
+      "enneagram":"",
+      "image": "./images/meghenderson.jpg"
+    },
+    {
+      "name": "Megan Ives #65",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "5",
+      "hometown":"Arvada, CO",
+      "birthday":"6/5",
+      "birthdayLong":"6/5/1995",
+      "college":"Colorado Kali",
+      "prevTeam":"Jackwagon",
+      "enneagram":"6",
+      "image": "./images/meganives.jpg"
+    },
+    {
+      "name": "Melissa Devlin #30",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "3",
+      "hometown":"Philadelphia, PA",
+      "birthday":"11/9",
+      "birthdayLong":"11/9/1988",
+      "college":"Delaware Sideshow",
+      "prevTeam":"Blue Route, AMP",
+      "enneagram":"",
+      "image": "./images/melissadevlin.jpg"
+    },
+    {
+      "name": "Nhi Nguyen #5",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "7",
+      "hometown":"Superior, CO",
+      "birthday":"1/9",
+      "birthdayLong":"1/9/1995",
+      "college":"University of Colorado Kali",
+      "prevTeam":"Jackwagon",
+      "enneagram":"9w8",
+      "image": "./images/nhinguyen.jpg"
+    },
+    {
+      "name": "Paige Applegate #7",
+      "nickname":"Paj",
+      "pronoun":"She/Her",
+      "years": "7",
+      "hometown":"Fort Collins, CO",
+      "birthday":"9/7",
+      "birthdayLong":"9/7/1991",
+      "college":"CSU Hell's Belles",
+      "prevTeam":"Killjoy",
+      "enneagram":"4",
+      "image": "./images/paigeapplegate.jpg"
+    },
+    {
+      "name": "Rachel Wilmoth #55",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Portland, OR",
+      "birthday":"11/5",
+      "birthdayLong":"11/5/1991",
+      "college":"Colorado Kali",
+      "prevTeam":"Jackwagon",
+      "enneagram":"5",
+      "image": "./images/rachelwilmoth.jpg"
+    },
+    {
+      "name": "Rena Kawabata #21",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Vancouver, Canada",
+      "birthday":"12/30",
+      "birthdayLong":"12/30/1989",
+      "college":"University of British Columbia Thunderbirds",
+      "prevTeam":"Seattle Underground, BFG, Vancouver Traffic",
+      "enneagram":"3",
+      "image": "./images/renakawabata.jpg"
+    },
+    {
+      "name": "Ronnie Eder #88",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Milwaukee, WI",
+      "birthday":"10/15",
+      "birthdayLong":"10/15/1992",
+      "college":"Gdub Hippos (The George Washington University)",
+      "prevTeam":"Backhanded, Wildfire",
+      "enneagram":"2w3",
+      "image": "./images/ronnieeder.jpg"
+    },
+    {
+      "name": "Sam Peletier #6",
+      "nickname":"Pele",
+      "pronoun":"She/Her",
+      "years": "6",
+      "hometown":"South Brunswick, NJ",
+      "birthday":"12/1",
+      "birthdayLong":"12/1/1990",
+      "college":"Delaware Sideshow",
+      "prevTeam":"GMG, 7 Express",
+      "enneagram":"2",
+      "image": "./images/sampeletier.jpg"
+    },
+    {
+      "name": "Sara Taggart* #15",
+      "nickname":"Stag",
+      "pronoun":"She/Her",
+      "years": "4",
+      "hometown":"New Haven, VT",
+      "birthday":"8/29",
+      "birthdayLong":"8/29/1991",
+      "college":"Haverford & Bryn Mawr Sneetches",
+      "prevTeam":"AMP, Bitmap",
+      "enneagram":"",
+      "image": "./images/sarataggart.jpg"
+    },
+    {
+      "name": "Sophie Taylor #36",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Perth, WA, AUS",
+      "birthday":"6/10",
+      "birthdayLong":"6/10/1995",
+      "college":"University of Queensland",
+      "prevTeam":"Gravity, Kaos, Fuse, Ellipsis",
+      "enneagram":"",
+      "image": "./images/sophietaylor.jpg"
+    },
+    {
+      "name": "Stacy Gaskill #44",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Golden, CO",
+      "birthday":"5/21",
+      "birthdayLong":"5/21/2000",
+      "college":"University of Colorado Quandary",
+      "prevTeam":"YCC Cutthroat",
+      "enneagram":"6",
+      "image": "./images/stacygaskill.jpg"
+    },
+    {
+      "name": "Stephanie Pritchard #28",
+      "nickname":"Rigby",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Prunedale, CA",
+      "birthday":"5/8",
+      "birthdayLong":"5/8/1990",
+      "college":"UCLA BLU",
+      "prevTeam":"Wildfire",
+      "enneagram":"2",
+      "image": "./images/stephaniepritchard.jpg"
+    },
+    {
+      "name": "Coach Hannah Leathers",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "3",
+      "hometown":"Atlanta, GA",
+      "birthday":"5/11",
+      "birthdayLong":"5/11/1991",
+      "college":"University of Georgia",
+      "prevTeam":"Ozone",
+      "enneagram":"",
+      "image": "./images/hannahleathers.jpg"
+    },
+    {
+      "name": "Coach Joaquin Nagle",
+      "nickname":"Joaq",
+      "pronoun":"He/Him",
+      "years": "1",
+      "hometown":"Santa Cruz, CA",
+      "birthday":"1/1",
+      "birthdayLong":"1/1/1986",
+      "college":"Harvey Mudd",
+      "prevTeam":"Condors",
+      "enneagram":"",
+      "image": "./images/joaquinnagle.jpg"
+    },
+    {
+      "name": "Coach Joe Durst",
+      "nickname":"",
+      "pronoun":"He/Him",
+      "years": "4",
+      "hometown":"Denver, CO",
+      "birthday":"2/29",
+      "birthdayLong":"2/29/1984",
+      "college":"Lewis & Clark",
+      "prevTeam":"Johnny Bravo",
+      "enneagram":"7w8",
+      "image": "./images/joedurst.jpg"
+    }
+  ],
+  "currentList":[
+    {
+      "name":"Alika Johnston",
+      "role":"Captain"
+    },
+    {
+      "name":"Allysha Dixon",
+      "role":""
+    },
+    {
+      "name":"Bert Abott",
+      "role":"Rookie"
+    },
+    {
+      "name":"Chelsea Twohig",
+      "role":""
+    },
+    {
+      "name":"Chip Chang",
+      "role":"Rookie"
+    },
+    {
+      "name":"Claire Chastain",
+      "role":"Captain"
+    },
+    {
+      "name":"Emma Capra",
+      "role":"Rookie"
+    },
+    {
+      "name":"Jesse Shofner",
+      "role":""
+    },
+    {
+      "name":"Lisa Pitcaithley",
+      "role":"Captain"
+    },
+    {
+      "name":"Liz Narmour",
+      "role":""
+    },
+    {
+      "name":"Liza Minor",
+      "role":""
+    },
+    {
+      "name":"Manuela Cárdenas",
+      "role":""
+    },
+    {
+      "name":"Meg Henderson",
+      "role":"Rookie"
+    },
+    {
+      "name":"Megan Ives",
+      "role":""
+    },
+    {
+      "name":"Melissa Devlin",
+      "role":""
+    },
+    {
+      "name":"Nhi Nguyen",
+      "role":""
+    },
+    {
+      "name":"Paige Applegate",
+      "role":""
+    },
+    {
+      "name":"Rachel Wilmoth",
+      "role":"Rookie"
+    },
+    {
+      "name":"Rena Kawabata",
+      "role":"Rookie"
+    },
+    {
+      "name":"Ronnie Eder",
+      "role":"Rookie"
+    },
+    {
+      "name":"Sam Peletier",
+      "role":""
+    },
+    {
+      "name":"Sara Taggart",
+      "role":"Captain"
+    },
+    {
+      "name":"Sophie Taylor",
+      "role":"Rookie"
+    },
+    {
+      "name":"Stacy Gaskill",
+      "role":"Rookie"
+    },
+    {
+      "name":"Stephanie Pritchard",
+      "role":"Rookie"
+    },
+    {
+      "name":"Akane Kleinkopf",
+      "role":"Practice Player"
+    },
+    {
+      "name":"Hannah Leathers",
+      "role":"Coach"
+    },
+    {
+      "name":"Joaquin Nagle",
+      "role":"Coach"
+    },
+    {
+      "name":"Joe Durst",
+      "role":"Coach"
+    }
+
+
+  ]
+}
