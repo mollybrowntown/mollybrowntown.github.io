@@ -2,3 +2,4 @@
   from = "/blog/"
   to = "https://coloradomollybrown.netlify.app"
   status = 200
+  force = true
