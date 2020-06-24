@@ -157,11 +157,11 @@
   margin-bottom:30px;
   color:white;
 }
-.about p{
-  color:white;
-  width: 75%;
-  text-align: center;
-  margin: 0 auto;
+.about-content{
+  color:white!important;
+  width: 75%!important;
+  text-align: center!important;
+  margin: 0 auto!important;
 }
 .schedule{
   background-color:#373B44;
