@@ -157,6 +157,10 @@
   margin-bottom:30px;
   color:white;
 }
+.about-content p{
+  color:white;
+  width: 75%;
+}
 .schedule{
   background-color:#373B44;
   padding-top:30px;
