@@ -160,6 +160,8 @@
 .about-content p{
   color:white;
   width: 75%;
+  text-align: center;
+  margin: 0 auto;
 }
 .schedule{
   background-color:#373B44;
