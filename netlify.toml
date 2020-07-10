@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/blog/*"
+  from = "https://www.coloradomollybrown.com/blog/*"
   to = "https://coloradomollybrown.netlify.app/blog/:splat"
   status = 200
   force = true
