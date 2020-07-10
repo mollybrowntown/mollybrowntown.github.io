@@ -1,3 +1,5 @@
-[build]
-command = "npm run build"
-
+[[redirects]]
+  from = "/blog/*"
+  to = "https://coloradomollybrown.netlify.app/blog/:splat"
+  status = 200
+  force = true
