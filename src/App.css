@@ -1,8 +1,24 @@
+.alert{
+  padding: 0!important;
+  margin:0!important;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index:9999;
+  border-radius:0px;
+}
+.alert p{
+  margin-top: 16px;
+}
 .navbar{
   font-family: 'Bebas Neue';
   background: #373B44;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  top:0;
+  position: fixed;
+  /* margin-top:100px; */
 }
 .nav-link{
   font-size: 1.5em;

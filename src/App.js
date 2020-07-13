@@ -7,6 +7,7 @@ import Roster from './components/roster.js';
 import Schedule from './components/schedule.js';
 import Sponsor from './components/sponsor.js';
 import Contact from './components/contact.js';
+import AlertText from './components/alerttext.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -16,10 +17,15 @@ import NavItem from 'react-bootstrap/Nav';
 import * as Scroll from 'react-scroll';
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 function App() {
+//   return <Button onClick={() => setShow(true)}>Show Alert</Button>;
+// }
+  return (
 
-  return (<div className="App">
+    <div className="App">
     {/* <Container> */}
-      <Navbar collapseOnSelect className="navbar" expand="lg" bg="primary" variant="dark" fixed="top" style={{paddingTop:'5px',paddingLeft:'5px',paddingBottom:'1px'}}>
+    <AlertText/>
+    <div>
+      <Navbar collapseOnSelect className="navbar" expand="lg" bg="primary" variant="dark" sticky="top" style={{paddingTop:'5px',paddingLeft:'5px',paddingBottom:'1px'}}>
         <Navbar.Brand href="../" style={{color:'white', fontSize:'1.5em'}}>
         <img
         alt=""
@@ -41,6 +47,8 @@ function App() {
           <Nav.Link eventKey={3} as={Link} to="sponsor" spy={true} smooth={true} offset={50} duration={500}>Sponsors
           </Nav.Link>
           <Nav.Link eventKey={4} as={Link} to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact
+          </Nav.Link>
+          <Nav.Link eventKey={5} href="/blog">Blog
           </Nav.Link>
         </Nav>
           {/* <Nav activeKey="../" className="ml-auto">
@@ -64,6 +72,7 @@ function App() {
     <Sponsor/>
     <Contact/>
     {/* </Container> */}
+    </div>
   </div>);
 }
 
