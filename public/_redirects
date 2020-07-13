@@ -1,1 +1,3 @@
-https://www.coloradomollybrown.com/blog/* https://coloradomollybrown.netlify.app/blog/:splat 200!
+/blog/* https://coloradomollybrown.netlify.app/blog/:splat 200!
+/static/* https://coloradomollybrown.netlify.app/static/:splat 200
+
