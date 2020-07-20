@@ -19,6 +19,7 @@ import {
 // import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Helmet from "react-helmet";
 // import NavItem from 'react-bootstrap/Nav';
 // import * as Scroll from 'react-scroll';
 import { Link } from 'react-scroll'
@@ -29,6 +30,28 @@ if (isBrowser){
   return (
 
     <div className="App">
+    <Helmet>
+<title>Molly Brown Ultimate</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#000000" data-react-helmet="true"/>
+<meta name="description" content="The official website for the Molly Brown ultimate frisbee team based out of Denver, Boulder, and Fort Collins. The team competes in the USA Ultimate Club Womxn's Division."/>
+
+<meta itemprop="name" content="Molly Brown Ultimate"/>
+<meta itemprop="description" content="The official website for the Molly Brown ultimate frisbee team based out of Denver, Boulder, and Fort Collins. The team competes in the USA Ultimate Club Womxn's Division."/>
+<meta itemprop="image" content="https://www.coloradomollybrown.com/./static/media/badge-logo.3071a041.png"/>
+
+<meta property="og:url" content="https://www.coloradomollybrown.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Molly Brown Ultimate"/>
+<meta property="og:description" content="The official website for the Molly Brown ultimate frisbee team based out of Denver, Boulder, and Fort Collins. The team competes in the USA Ultimate Club Womxn's Division."/>
+<meta property="og:image" content="https://www.coloradomollybrown.com/./static/media/badge-logo.3071a041.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Molly Brown Ultimate"/>
+<meta name="twitter:description" content="The official website for the Molly Brown ultimate frisbee team based out of Denver, Boulder, and Fort Collins. The team competes in the USA Ultimate Club Womxn's Division."/>
+<meta name="twitter:image" content="https://www.coloradomollybrown.com/./static/media/badge-logo.3071a041.png"/>
+
+    </Helmet>
     {/* <Container> */}
     <AlertText/>
     <div>
@@ -76,6 +99,28 @@ if (isBrowser){
   return (
 
     <div className="App">
+    <Helmet>
+<title>Molly Brown Ultimate</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#000000" data-react-helmet="true"/>
+<meta name="description" content="The official website for the Molly Brown ultimate frisbee team based out of Denver, Boulder, and Fort Collins. The team competes in the USA Ultimate Club Womxn's Division."/>
+
+<meta itemprop="name" content="Molly Brown Ultimate"/>
+<meta itemprop="description" content="The official website for the Molly Brown ultimate frisbee team based out of Denver, Boulder, and Fort Collins. The team competes in the USA Ultimate Club Womxn's Division."/>
+<meta itemprop="image" content="https://www.coloradomollybrown.com/./static/media/badge-logo.3071a041.png"/>
+
+<meta property="og:url" content="https://www.coloradomollybrown.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Molly Brown Ultimate"/>
+<meta property="og:description" content="The official website for the Molly Brown ultimate frisbee team based out of Denver, Boulder, and Fort Collins. The team competes in the USA Ultimate Club Womxn's Division."/>
+<meta property="og:image" content="https://www.coloradomollybrown.com/./static/media/badge-logo.3071a041.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Molly Brown Ultimate"/>
+<meta name="twitter:description" content="The official website for the Molly Brown ultimate frisbee team based out of Denver, Boulder, and Fort Collins. The team competes in the USA Ultimate Club Womxn's Division."/>
+<meta name="twitter:image" content="https://www.coloradomollybrown.com/./static/media/badge-logo.3071a041.png"/>
+
+    </Helmet>
     {/* <Container> */}
     <AlertText/>
     <div>

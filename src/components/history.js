@@ -6,26 +6,12 @@ import data from "./data";
 class History extends Component{
   constructor(props){
     super(props);
-    // this.state = {show: true}
     this.rosterList = this.rosterList.bind(this);
   }
-  // rosterList(year) {
-  //   let list = year + 'List'
-  //   console.log(list,data[list])
-  //   data[list].map((player,i) => {
-  //     console.log(player.name)
-  //     if(player.role !== ""){
-  //       return <li key={i}>{player.name}</li>
-  //     }else {
-  //       return <li key={i}>{player.name}</li>
-  //     }
-  //   })
-  //
-  // }
+
   rosterList(year) {
     let list = year + 'List'
     return (data[list].map((player,i) => {
-      console.log(player.name)
       if(player.role !== ""){
         return <li key={i}>{player.name +" (" +player.role+")"}</li>
       }else {
@@ -33,7 +19,6 @@ class History extends Component{
       }
     })
   )
-
   }
 render(){
   return(

@@ -26,11 +26,12 @@ class Roster extends Component{
             pronoun:"",
             hometown:"",
             birthday: "",
+            credit:""
 
         }
     }
 
-    handleModalShowHide(name,image,years,pronoun,hometown,birthday) {
+    handleModalShowHide(name,image,years,pronoun,hometown,birthday,credit) {
       console.log(image)
         this.setState(
           { showHide: !this.state.showHide,
@@ -39,14 +40,15 @@ class Roster extends Component{
             years:years,
             pronoun:pronoun,
             hometown:hometown,
-            birthday:birthday
+            birthday:birthday,
+            credit:credit
           })
     }
     handleClose() {
 		this.setState({ show: false });
 	}
 
-	handleShow(name,image,years,pronoun,hometown,birthday) {
+	handleShow(name,image,years,pronoun,hometown,birthday,credit) {
 		this.setState(
       { show: true,
         name:name,
@@ -54,7 +56,8 @@ class Roster extends Component{
         years:years,
         pronoun:pronoun,
         hometown:hometown,
-        birthday:birthday
+        birthday:birthday,
+        credit:credit
       });
 	}
   //   getInitialState(){
@@ -213,8 +216,8 @@ render(){
       if(birthdayToday){
         return(
           <div>
-        <p className="roster-mob" onClick={()=>this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong)}><b>{rost.fullName}</b>{" ("+rost.role+")"}&nbsp; <i class="fa fa-birthday-cake" aria-hidden="true"></i></p>
-        <Modal show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
+        <p className="roster-mob" onClick={()=>this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong,rost.credit)}><b>{rost.fullName}</b>{" ("+rost.role+")"}&nbsp; <i class="fa fa-birthday-cake" aria-hidden="true"></i></p>
+        <Modal style={{ height: "100vh" }} dialogClassName="custom-modal" show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
      <Modal.Header closeButton onClick={this.handleClose}>
      <Modal.Title>{this.state.name}</Modal.Title>
      </Modal.Header>
@@ -224,6 +227,7 @@ render(){
      <span><b>Pronouns:</b> {this.state.pronoun}</span><br></br>
      <span><b>Hometown:</b> {this.state.hometown}</span><br></br>
      <span><b>Birthday:</b> {this.state.birthday}</span><br></br>
+     <small className="text-muted">Photo by: {this.state.credit}</small>
      </Modal.Body>
      <Modal.Footer>
      <Button variant="secondary" onClick={this.handleClose}>
@@ -237,10 +241,10 @@ render(){
       }else{
         return(
           <div>
-        <p className="roster-mob" onClick={()=>this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong)}><b>{rost.fullName}</b>{" ("+rost.role+")"}</p>
+        <p className="roster-mob" onClick={()=>this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong,rost.credit)}><b>{rost.fullName}</b>{" ("+rost.role+")"}</p>
 
 
-                       <Modal show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
+                       <Modal style={{ height: "100vh" }} dialogClassName="custom-modal" show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
                     <Modal.Header closeButton onClick={this.handleClose}>
                     <Modal.Title>{this.state.name}</Modal.Title>
                     </Modal.Header>
@@ -250,6 +254,7 @@ render(){
                     <span><b>Pronouns:</b> {this.state.pronoun}</span><br></br>
                     <span><b>Hometown:</b> {this.state.hometown}</span><br></br>
                     <span><b>Birthday:</b> {this.state.birthday}</span><br></br>
+                    <small className="text-muted">Photo by: {this.state.credit}</small>
                     </Modal.Body>
                     <Modal.Footer>
                     <Button variant="secondary" onClick={this.handleClose}>
@@ -269,8 +274,8 @@ render(){
   if(birthdayToday){
     return(
       <div>
-    <p className="roster-mob" onClick={()=>this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong)}><b>{rost.fullName}&nbsp; <i class="fa fa-birthday-cake" aria-hidden="true"></i></b></p>
-    <Modal show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
+    <p className="roster-mob" onClick={()=>this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong,rost.credit)}><b>{rost.fullName}&nbsp; <i class="fa fa-birthday-cake" aria-hidden="true"></i></b></p>
+    <Modal style={{ height: "100vh" }} dialogClassName="custom-modal" show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
  <Modal.Header closeButton onClick={this.handleClose}>
  <Modal.Title>{this.state.name}</Modal.Title>
  </Modal.Header>
@@ -280,6 +285,7 @@ render(){
  <span><b>Pronouns:</b> {this.state.pronoun}</span><br></br>
  <span><b>Hometown:</b> {this.state.hometown}</span><br></br>
  <span><b>Birthday:</b> {this.state.birthday}</span><br></br>
+ <small className="text-muted">Photo by: {this.state.credit}</small>
  </Modal.Body>
  <Modal.Footer>
  <Button variant="secondary" onClick={this.handleClose}>
@@ -294,8 +300,8 @@ render(){
   else{
     return(
       <div>
-    <p className="roster-mob" onClick={() => this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong)}><b>{rost.fullName}</b></p>
-    <Modal show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
+    <p className="roster-mob" onClick={() => this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong,rost.credit)}><b>{rost.fullName}</b></p>
+    <Modal style={{ height: "100vh" }} dialogClassName="custom-modal" show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
  <Modal.Header closeButton onClick={this.handleClose}>
  <Modal.Title>{this.state.name}</Modal.Title>
  </Modal.Header>
@@ -305,6 +311,7 @@ render(){
  <span><b>Pronouns:</b> {this.state.pronoun}</span><br></br>
  <span><b>Hometown:</b> {this.state.hometown}</span><br></br>
  <span><b>Birthday:</b> {this.state.birthday}</span><br></br>
+ <small className="text-muted">Photo by: {this.state.credit}</small>
  </Modal.Body>
  <Modal.Footer>
  <Button variant="secondary" onClick={this.handleClose}>

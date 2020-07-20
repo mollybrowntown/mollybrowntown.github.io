@@ -124,6 +124,20 @@
   /* text-shadow: 1px 1px blue; */
   text-decoration-color: #4286f4;
 }
+/* .custom-modal{
+   .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+ }
+
+} */
 .roster-footer{
   text-align: center;
   font-family: 'Francois One', sans-serif;
