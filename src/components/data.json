@@ -1,370 +1,695 @@
 {
   "current":[
     {
+      "name": "Akane Kleinkopf #74",
+      "fullName": "Akane Kleinkopf",
+      "role":"Rookie",
+      "nickname":"Kanye",
+      "pronoun":"She/Her",
+      "years": "2",
+      "hometown":"Boulder, CO",
+      "birthday":"8/01",
+      "birthdayLong":"8/01/1998",
+      "college":"Whitman College",
+      "prevTeam":"Love Tractor",
+      "enneagram":"6",
+      "image": "./images/akanekleinkopf.jpg",
+      "credit":"Anna Zirkes"
+    },
+    {
       "name": "Alika Johnston* #13",
-      "nickname":"Leeks",
+      "fullName": "Alika Johnston",
+      "role":"Captain",
+      "nickname":"Leek",
       "pronoun":"She/Her",
       "years": "3",
       "hometown":"Arlington, VA",
       "birthday":"3/13",
       "birthdayLong":"3/13/1994",
-      "college":"University of Virginia Hydra",
+      "college":"University of Virginia",
       "prevTeam":"Scandal",
       "enneagram":"2",
-      "image": "./images/alikajohnston.jpg"
+      "image": "./images/alikajohnston.jpg",
+      "credit":"Paul Rutherford, Ultiphotos"
     },
     {
       "name": "Allysha Dixon #22",
+      "fullName": "Allysha Dixon",
+      "role":"",
       "nickname":"Llysh",
       "pronoun":"She/Her",
-      "years": "2",
+      "years": "3",
       "hometown":"Spring Valley, NY",
       "birthday":"9/23",
-      "birthdayLong":"9/23/2018",
+      "birthdayLong":"9/23/1992",
       "college":"Philadelphia University",
       "prevTeam":"AMP",
       "enneagram":"",
-      "image": "./images/allyshadixon.jpg"
-    },{
-      "name": "Bert Abbott #33",
+      "image": "./images/allyshadixon.jpg",
+      "credit":"Paul Rutherford, Ultiphotos"
+    },
+    {
+      "name": "Ari Nelson #57",
+      "fullName": "Ari Nelson",
+      "role":"Rookie",
       "nickname":"",
       "pronoun":"She/Her",
       "years": "1",
+      "hometown":"Spring Valley, NY",
+      "birthday":"9/11",
+      "birthdayLong":"9/11/1998",
+      "college":"Northeastern University",
+      "prevTeam":"Slow White",
+      "enneagram":"8",
+      "image": "./images/arinelson.jpg",
+      "credit":"Paul Rutherford, Ultiphotos"
+    },
+    {
+      "name": "Bailey Shigley #19",
+      "fullName": "Bailey Shigley",
+      "role":"Rookie",
+      "nickname":"Bay",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Seattle, WA",
+      "birthday":"4/23",
+      "birthdayLong":"4/23/2000",
+      "college":"University of Colorado",
+      "prevTeam":"Seattle YCC",
+      "enneagram":"3",
+      "image": "./images/baileyshigley.jpg",
+      "credit":"Rodney Chen, Ultiphotos"
+    },
+    {
+      "name": "Becca Miller #47",
+      "fullName": "Becca Miller",
+      "role":"",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "5",
+      "hometown":"Ames, IA",
+      "birthday":"5/14",
+      "birthdayLong":"5/14/1991",
+      "college":"Iowa State",
+      "prevTeam":"The Chad Larson Experience",
+      "enneagram":"",
+      "image": "./images/beccamiller.jpg",
+      "credit":"Paul Rutherford, Ultiphotos"
+    },
+    {
+      "name": "Bert Abbott #33",
+      "fullName": "Bert Abbott",
+      "role":"",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "2",
       "hometown":"Seattle, WA",
       "birthday":"10/25",
       "birthdayLong":"10/25/1988",
       "college":"University of Washington",
       "prevTeam":"Seattle Mixtape",
-      "enneagram":"",
-      "image": "./images/bertabbott.jpg"
-    },
-    {
-      "name": "Chelsea Twohig #10",
-      "nickname":"",
-      "pronoun":"She/Her",
-      "years": "2",
-      "hometown":"Campbellsport, WI",
-      "birthday":"12/26",
-      "birthdayLong":"12/26/1984",
-      "college":"University of Iowa Saucy Nancy",
-      "prevTeam":"Schwa, Heist, CLX",
-      "enneagram":"",
-      "image": "./images/chelseatwohig.jpg"
+      "enneagram":"4",
+      "image": "./images/bertabbott.jpg",
+      "credit":"Sam Hotaling, Ultiphotos"
     },
     {
       "name": "Chip Chang #40",
+      "fullName": "Chip Chang",
+      "role":"",
       "nickname":"",
       "pronoun":"She/Her",
-      "years": "1",
+      "years": "2",
       "hometown":"Los Angeles, CA",
       "birthday":"12/12",
       "birthdayLong":"12/12/1991",
-      "college":"UC San Diego Dragon Coalition, UCLA BLU",
+      "college":"UCSD, UCLA",
       "prevTeam":"Pop, Drag'n Thrust",
       "enneagram":"6",
-      "image": "./images/chipchang.jpg"
+      "image": "./images/chipchang.jpg",
+      "credit":"Rodney Chen, Ultiphotos"
     },
     {
       "name": "Claire Chastain* #52",
+      "fullName": "Claire Chastain",
+      "role":"Captain",
       "nickname":"",
       "pronoun":"She/Her",
-      "years": "6",
+      "years": "7",
       "hometown":"Wilmington, NC",
       "birthday":"6/14",
       "birthdayLong":"6/14/1990",
       "college":"UNCW",
       "prevTeam":"Phoenix",
       "enneagram":"1",
-      "image": "./images/clairechastain.jpg"
+      "image": "./images/clairechastain.jpg",
+      "credit":"Rodney Chen, Ultiphotos"
     },
     {
       "name": "Emma Capra #17",
+      "fullName": "Emma Capra",
+      "role":"",
       "nickname":"",
       "pronoun":"She/Her",
-      "years": "1",
+      "years": "2",
       "hometown":"Denver, CO",
       "birthday":"6/25",
       "birthdayLong":"6/25/1997",
-      "college":"Colorado Kali",
+      "college":"University of Colorado",
       "prevTeam":"Jackwagon",
       "enneagram":"2",
-      "image": "./images/emmacapra.jpg"
+      "image": "./images/emmacapra.jpg",
+      "credit":"Andraž Kramberger"
+    },
+    {
+      "name": "Frances Gellert #9",
+      "fullName": "Frances Gellert",
+      "role":"Rookie",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Seattle, WA",
+      "birthday":"8/07",
+      "birthdayLong":"8/07/1996",
+      "college":"Colorado College",
+      "prevTeam":"Love Tractor",
+      "enneagram":"1",
+      "image": "./images/francesgellert.jpg",
+      "credit":"Lysistrata's Tools"
+
     },
     {
       "name": "Jesse Shofner #2",
-      "nickname":"",
-      "pronoun":"She/Her",
-      "years": "3",
-      "hometown":"Nashville, TN",
-      "birthday":"7/16",
-      "birthdayLong":"7/16/1993",
-      "college":"University of Oregon Fugue",
-      "prevTeam":"Guillermo y Comapnia, Desoto, Schwa, Scandal",
-      "enneagram":"2",
-      "image": "./images/jesseshofner.jpg"
-    },
-    {
-      "name": "Lisa Pitcaithley* #26",
+      "fullName": "Jesse Shofner",
+      "role":"",
       "nickname":"",
       "pronoun":"She/Her",
       "years": "4",
+      "hometown":"Nashville, TN",
+      "birthday":"7/16",
+      "birthdayLong":"7/16/1993",
+      "college":"University of Oregon",
+      "prevTeam":"Guillermo y Comapnia, Desoto, Schwa, Scandal",
+      "enneagram":"2",
+      "image": "./images/jesseshofner.jpg",
+      "credit":"Sam Hotaling, Ultiphotos"
+    },
+    {
+      "name": "Julia Johnson #10",
+      "fullName": "Julia Johnson",
+      "role":"Rookie",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Atlanta, GA",
+      "birthday":"1/24",
+      "birthdayLong":"1/24/1995",
+      "college":"USC Hellions",
+      "prevTeam":"Wildfire",
+      "enneagram":"8",
+      "image": "./images/juliajohnson.jpg",
+      "credit":"Mark Johnson"
+    },
+    {
+      "name": "Katiana Hutchinson #X",
+      "fullName": "Katiana Hutchinson",
+      "role":"Rookie",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Port-au-Prince, Haiti",
+      "birthday":"12/3",
+      "birthdayLong":"12/3/1995",
+      "college":"University of Colorado",
+      "prevTeam":"Jackwagon",
+      "enneagram":"",
+      "image": "./images/katianahutchinson.jpg",
+      "credit":"Sam Hotaling, Ultiphotos"
+    },
+    {
+      "name": "Kyra Khoroujnikova #14",
+      "fullName": "Kyra Khoroujnikova",
+      "role":"Rookie",
+      "nickname":"Kayak",
+      "pronoun":"She/Her",
+      "years": "1",
+      "hometown":"Salt Lake City, Utah",
+      "birthday":"6/2",
+      "birthdayLong":"6/2/1998",
+      "college":"University of Colorado",
+      "prevTeam":"Elevate",
+      "enneagram":"",
+      "image": "./images/kyrak.jpg",
+      "credit":"Sam Hotaling, Ultiphotos"
+    },
+    {
+      "name": "Lisa Pitcaithley* #26",
+      "fullName": "Lisa Pitcaithley",
+      "role":"Captain",
+      "nickname":"",
+      "pronoun":"She/Her",
+      "years": "5",
       "hometown":"Pleasanton, CA",
       "birthday":"5/8",
       "birthdayLong":"5/8/1992",
       "college":"UCSB",
       "prevTeam":"Fury",
       "enneagram":"7",
-      "image": "./images/lisapitcaithley.jpg"
-    },
-    {
-      "name": "Liz Narmour #12",
-      "nickname":"",
-      "pronoun":"She/Her",
-      "years": "2",
-      "hometown":"Ames, IA",
-      "birthday":"9/25",
-      "birthdayLong":"9/25/1993",
-      "college":"Iowa State Woman Scorned",
-      "prevTeam":"The Chad Larson Experience, Heist, Small Batch",
-      "enneagram":"1",
-      "image": "./images/liznarmour.jpg"
+      "image": "./images/lisapitcaithley.jpg",
+      "credit":"Sam Hotaling, Ultiphotos"
     },
     {
       "name": "Liza Minor #3",
+      "fullName": "Liza Minor",
+      "role":"",
       "nickname":"Lizer",
       "pronoun":"She/Her",
-      "years": "3",
+      "years": "4",
       "hometown":"Iowa City, IA",
       "birthday":"5/12",
       "birthdayLong":"5/12/1991",
-      "college":"University of Iowa Saucy Nancy",
+      "college":"University of Iowa",
       "prevTeam":"Scientific Method, Revoloution, PanIC, Heist",
       "enneagram":"3w2",
-      "image": "./images/lizaminor.jpg"
+      "image": "./images/lizaminor.jpg",
+      "credit":"Rodney Chen, Ultiphotos"
     },
     {
       "name": "Manuela Cárdenas #8",
+      "fullName": "Manuela Cárdenas",
+      "role":"",
       "nickname":"Manu",
       "pronoun":"She/Her",
-      "years": "3",
+      "years": "4",
       "hometown":"Medellin, COL",
       "birthday":"7/28",
       "birthdayLong":"7/28/1999",
       "college":"University Eafit",
       "prevTeam":"Revolution",
       "enneagram":"7",
-      "image": "./images/manuelacardenas.jpg"
+      "image": "./images/manuelacardenas.jpg",
+      "credit":"Sam Hotaling, Ultiphotos"
     },
     {
       "name": "Meg Henderson #11",
+      "fullName": "Meg Henderson",
+      "role":"",
       "nickname":"",
       "pronoun":"She/Her",
-      "years": "1",
+      "years": "2",
       "hometown":"Lakewood, CO",
       "birthday":"12/12",
       "birthdayLong":"12/12/1995",
-      "college":"Colorado Kali",
+      "college":"University of Colorado",
       "prevTeam":"Love Tractor",
       "enneagram":"",
-      "image": "./images/meghenderson.jpg"
+      "image": "./images/meghenderson.jpg",
+      "credit":"Rodney Chen, Ultiphotos"
+    },
+    {
+      "name": "Megan Cousins #16",
+      "fullName": "Megan Cousins",
+      "role":"",
+      "nickname":"Cuz",
+      "pronoun":"She/Her",
+      "years": "9",
+      "hometown":"Louisville, CO",
+      "birthday":"3/12",
+      "birthdayLong":"3/12/1992",
+      "college":"University of Colorado",
+      "prevTeam":"",
+      "enneagram":"9",
+      "image": "./images/megancousins.jpg",
+      "credit":"Steve Kotvis, f/go"
     },
     {
       "name": "Megan Ives #65",
+      "fullName": "Megan Ives",
+      "role":"",
       "nickname":"",
       "pronoun":"She/Her",
-      "years": "5",
+      "years": "6",
       "hometown":"Arvada, CO",
       "birthday":"6/5",
       "birthdayLong":"6/5/1995",
-      "college":"Colorado Kali",
+      "college":"University of Colorado",
       "prevTeam":"Jackwagon",
       "enneagram":"6",
-      "image": "./images/meganives.jpg"
+      "image": "./images/meganives.jpg",
+      "credit":"Rodney Chen, Ultiphotos"
     },
     {
       "name": "Melissa Devlin #30",
-      "nickname":"",
+      "fullName": "Melissa Devlin",
+      "role":"",
+      "nickname":"Dev",
       "pronoun":"She/Her",
-      "years": "3",
+      "years": "4",
       "hometown":"Philadelphia, PA",
       "birthday":"11/9",
       "birthdayLong":"11/9/1988",
       "college":"Delaware Sideshow",
       "prevTeam":"Blue Route, AMP",
       "enneagram":"",
-      "image": "./images/melissadevlin.jpg"
+      "image": "./images/melissadevlin.jpg",
+      "credit":"Rodney Chen, Ultiphotos"
     },
     {
       "name": "Nhi Nguyen #5",
+      "fullName": "Nhi Nguyen",
+      "role":"",
       "nickname":"",
       "pronoun":"She/Her",
-      "years": "7",
+      "years": "8",
       "hometown":"Superior, CO",
       "birthday":"1/9",
       "birthdayLong":"1/9/1995",
-      "college":"University of Colorado Kali",
+      "college":"University of Colorado",
       "prevTeam":"Jackwagon",
       "enneagram":"9w8",
-      "image": "./images/nhinguyen.jpg"
+      "image": "./images/nhinguyen.jpg",
+      "credit":"Rodney Chen, Ultiphotos"
     },
     {
       "name": "Paige Applegate #7",
+      "fullName": "Paige Applegate",
+      "role":"",
       "nickname":"Paj",
       "pronoun":"She/Her",
-      "years": "7",
+      "years": "8",
       "hometown":"Fort Collins, CO",
       "birthday":"9/7",
       "birthdayLong":"9/7/1991",
-      "college":"CSU Hell's Belles",
+      "college":"Colorado State",
       "prevTeam":"Killjoy",
       "enneagram":"4",
-      "image": "./images/paigeapplegate.jpg"
+      "image": "./images/paigeapplegate.jpg",
+      "credit":"Paul Rutherford, Ultiphotos"
     },
     {
       "name": "Rachel Wilmoth #55",
+      "fullName": "Rachel Wilmoth",
+      "role":"",
       "nickname":"",
       "pronoun":"She/Her",
-      "years": "1",
+      "years": "2",
       "hometown":"Portland, OR",
       "birthday":"11/5",
       "birthdayLong":"11/5/1991",
-      "college":"Colorado Kali",
+      "college":"University of Colorado",
       "prevTeam":"Jackwagon",
       "enneagram":"5",
-      "image": "./images/rachelwilmoth.jpg"
+      "image": "./images/rachelwilmoth.jpg",
+      "credit":"Andraž Kramberger"
     },
     {
       "name": "Rena Kawabata #21",
+      "fullName": "Rena Kawabata",
+      "role":"",
       "nickname":"",
       "pronoun":"She/Her",
-      "years": "1",
+      "years": "2",
       "hometown":"Vancouver, Canada",
       "birthday":"12/30",
       "birthdayLong":"12/30/1989",
-      "college":"University of British Columbia Thunderbirds",
+      "college":"University of British Columbia",
       "prevTeam":"Seattle Underground, BFG, Vancouver Traffic",
       "enneagram":"3",
-      "image": "./images/renakawabata.jpg"
+      "image": "./images/renakawabata.jpg",
+      "credit":"Nhi Nguyen"
     },
     {
       "name": "Ronnie Eder #88",
+      "fullName": "Ronnie Eder",
+      "role":"",
       "nickname":"",
       "pronoun":"She/Her",
-      "years": "1",
+      "years": "2",
       "hometown":"Milwaukee, WI",
       "birthday":"10/15",
       "birthdayLong":"10/15/1992",
-      "college":"Gdub Hippos (The George Washington University)",
+      "college":"The George Washington University",
       "prevTeam":"Backhanded, Wildfire",
       "enneagram":"2w3",
-      "image": "./images/ronnieeder.jpg"
+      "image": "./images/ronnieeder.jpg",
+      "credit":"Paul Andris, Ultiphotos"
     },
     {
       "name": "Sam Peletier #6",
+      "fullName": "Sam Peletier",
+      "role":"",
       "nickname":"Pele",
       "pronoun":"She/Her",
-      "years": "6",
+      "years": "7",
       "hometown":"South Brunswick, NJ",
       "birthday":"12/1",
       "birthdayLong":"12/1/1990",
-      "college":"Delaware Sideshow",
+      "college":"Delaware",
       "prevTeam":"GMG, 7 Express",
       "enneagram":"2",
-      "image": "./images/sampeletier.jpg"
+      "image": "./images/sampeletier.jpg",
+      "credit":"Joel Ives"
     },
     {
       "name": "Sara Taggart* #15",
+      "fullName": "Sara Taggart",
+      "role":"Captain",
       "nickname":"Stag",
       "pronoun":"She/Her",
-      "years": "4",
+      "years": "5",
       "hometown":"New Haven, VT",
       "birthday":"8/29",
       "birthdayLong":"8/29/1991",
       "college":"Haverford & Bryn Mawr Sneetches",
       "prevTeam":"AMP, Bitmap",
       "enneagram":"",
-      "image": "./images/sarataggart.jpg"
+      "image": "./images/sarataggart.jpg",
+      "credit":"Rodney Chen, Ultiphotos"
     },
     {
-      "name": "Sophie Taylor #36",
-      "nickname":"",
+      "name": "Skye Fernandez #12",
+      "fullName": "Skye Fernandez",
+      "role":"Rookie",
+      "nickname":"Diva",
       "pronoun":"She/Her",
       "years": "1",
-      "hometown":"Perth, WA, AUS",
-      "birthday":"6/10",
-      "birthdayLong":"6/10/1995",
-      "college":"University of Queensland",
-      "prevTeam":"Gravity, Kaos, Fuse, Ellipsis",
-      "enneagram":"",
-      "image": "./images/sophietaylor.jpg"
+      "hometown":"Highland Village, TX",
+      "birthday":"12/12",
+      "birthdayLong":"12/12/2000",
+      "college":"University of Colorado",
+      "prevTeam":"Public Enemy",
+      "enneagram":"2",
+      "image": "./images/skyefernandez.jpg",
+      "credit":"Rodney Chen, Ultiphotos"
     },
     {
       "name": "Stacy Gaskill #44",
+      "fullName": "Stacy Gaskill",
+      "role":"",
       "nickname":"",
       "pronoun":"She/Her",
-      "years": "1",
+      "years": "2",
       "hometown":"Golden, CO",
       "birthday":"5/21",
       "birthdayLong":"5/21/2000",
-      "college":"University of Colorado Quandary",
+      "college":"University of Colorado",
       "prevTeam":"YCC Cutthroat",
       "enneagram":"6",
-      "image": "./images/stacygaskill.jpg"
+      "image": "./images/stacygaskill.jpg",
+      "credit":"Paul Rutherford, Ultiphotos"
     },
+
     {
-      "name": "Stephanie Pritchard #28",
-      "nickname":"Rigby",
+      "name": "Victoria Elmore #44",
+      "fullName": "Victoria Elmore",
+      "role":"",
+      "nickname":"Elmo",
       "pronoun":"She/Her",
-      "years": "1",
-      "hometown":"Prunedale, CA",
-      "birthday":"5/8",
-      "birthdayLong":"5/8/1990",
-      "college":"UCLA BLU",
-      "prevTeam":"Wildfire",
-      "enneagram":"2",
-      "image": "./images/stephaniepritchard.jpg"
+      "years": "3",
+      "hometown":"Stafford, VA",
+      "birthday":"7/21",
+      "birthdayLong":"7/21/1991",
+      "college":"James Madison",
+      "prevTeam":"Small Batch",
+      "enneagram":"",
+      "image": "./images/victoriaelmore.jpg",
+      "credit":"Steve Kotvis, f/go"
     },
     {
       "name": "Coach Hannah Leathers",
+      "fullName": "Hannah Leathers",
+      "role":"Coach",
       "nickname":"",
       "pronoun":"She/They",
-      "years": "3",
+      "years": "4",
       "hometown":"Atlanta, GA",
       "birthday":"5/11",
       "birthdayLong":"5/11/1991",
       "college":"University of Georgia",
       "prevTeam":"Ozone",
       "enneagram":"",
-      "image": "./images/hannahleathers.jpg"
+      "image": "./images/hannahleathers.jpg",
+      "credit":"Noah Markus"
     },
     {
       "name": "Coach Joaquin Nagle",
+      "fullName": "Joaquin Nagle",
+      "role":"Coach",
       "nickname":"Joaq",
       "pronoun":"He/Him",
-      "years": "1",
+      "years": "2",
       "hometown":"Santa Cruz, CA",
       "birthday":"1/1",
       "birthdayLong":"1/1/1986",
       "college":"Harvey Mudd",
       "prevTeam":"Condors",
       "enneagram":"",
-      "image": "./images/joaquinnagle.jpg"
-    },
-    {
-      "name": "Coach Joe Durst",
-      "nickname":"",
-      "pronoun":"He/Him",
-      "years": "4",
-      "hometown":"Denver, CO",
-      "birthday":"2/29",
-      "birthdayLong":"2/29/1984",
-      "college":"Lewis & Clark",
-      "prevTeam":"Johnny Bravo",
-      "enneagram":"7w8",
-      "image": "./images/joedurst.jpg"
+      "image": "./images/joaquinnagle.jpg",
+      "credit":"Becca Miller"
     }
   ],
   "currentList":[
+    {
+      "name":"Akane Kleinkopf",
+      "role":"Rookie"
+    },
+    {
+      "name":"Alika Johnston",
+      "role":"Captain"
+    },
+    {
+      "name":"Allysha Dixon",
+      "role":""
+    },
+    {
+      "name":"Ari Nelson",
+      "role":"Rookie"
+    },
+    {
+      "name":"Bailey Shigley",
+      "role":"Rookie"
+    },
+    {
+      "name":"Becca Miller",
+      "role":""
+    },
+    {
+      "name":"Bert Abott",
+      "role":""
+    },
+    {
+      "name":"Chip Chang",
+      "role":""
+    },
+    {
+      "name":"Claire Chastain",
+      "role":"Captain"
+    },
+    {
+      "name":"Emma Capra",
+      "role":""
+    },
+    {
+      "name":"Frances Gellert",
+      "role":"Rookie"
+    },
+    {
+      "name":"Jesse Shofner",
+      "role":""
+    },
+    {
+      "name":"Julia Johnson",
+      "role":"Rookie"
+    },
+    {
+      "name":"Katiana Hutchinson",
+      "role":"Rookie"
+    },
+    {
+      "name":"Kyra Khoroujnikova",
+      "role":"Rookie"
+    },
+    {
+      "name":"Lisa Pitcaithley",
+      "role":"Captain"
+    },
+    {
+      "name":"Liza Minor",
+      "role":""
+    },
+    {
+      "name":"Manuela Cárdenas",
+      "role":""
+    },
+    {
+      "name":"Meg Henderson",
+      "role":""
+    },
+    {
+      "name":"Megan Cousins",
+      "role":""
+    },
+    {
+      "name":"Megan Ives",
+      "role":""
+    },
+    {
+      "name":"Melissa Devlin",
+      "role":""
+    },
+    {
+      "name":"Nhi Nguyen",
+      "role":""
+    },
+    {
+      "name":"Paige Applegate",
+      "role":""
+    },
+    {
+      "name":"Rachel Wilmoth",
+      "role":""
+    },
+    {
+      "name":"Rena Kawabata",
+      "role":""
+    },
+    {
+      "name":"Ronnie Eder",
+      "role":""
+    },
+    {
+      "name":"Sam Peletier",
+      "role":""
+    },
+    {
+      "name":"Sara Taggart",
+      "role":"Captain"
+    },
+    {
+      "name":"Skye Fernandez",
+      "role":"Rookie"
+    },
+    {
+      "name":"Stacy Gaskill",
+      "role":""
+    },
+    {
+      "name":"Victoria Elmore",
+      "role":""
+    },
+    {
+      "name":"Hannah Leathers",
+      "role":"Coach"
+    },
+    {
+      "name":"Joaquin Nagle",
+      "role":"Coach"
+    },
+    {
+      "name":"Joe Durst",
+      "role":"Coach"
+    }
+  ],
+  "2019List":[
     {
       "name":"Alika Johnston",
       "role":"Captain"
@@ -481,7 +806,1015 @@
       "name":"Joe Durst",
       "role":"Coach"
     }
-
-
+  ],
+  "2018List":[
+    {
+      "name":"Alex Hardesty",
+      "role":"Rookie"
+    },
+    {
+      "name":"Alika Johnston",
+      "role":"Rookie"
+    },
+    {
+      "name":"Allysha Dixon",
+      "role":"Rookie"
+    },
+    {
+      "name":"Becca Miller",
+      "role":""
+    },
+    {
+      "name":"Carolyn Vlach",
+      "role":""
+    },
+    {
+      "name":"Chelsea Twohig",
+      "role":"Rookie"
+    },
+    {
+      "name":"Claire Chastain",
+      "role":""
+    },
+    {
+      "name":"Dena Slattery",
+      "role":""
+    },
+    {
+      "name":"Hannah Leathers",
+      "role":""
+    },
+    {
+      "name":"Jesse Shofner",
+      "role":""
+    },
+    {
+      "name":"Kiera Lindgren",
+      "role":"Rookie"
+    },
+    {
+      "name":"Lauren Baecher",
+      "role":"Captain"
+    },
+    {
+      "name":"Lisa Pitcaithley",
+      "role":""
+    },
+    {
+      "name":"Lisi Lohre",
+      "role":""
+    },
+    {
+      "name":"Liz Narmour",
+      "role":"Rookie"
+    },
+    {
+      "name":"Liza Minor",
+      "role":""
+    },
+    {
+      "name":"Maggie Chen",
+      "role":""
+    },
+    {
+      "name":"Manuela Cárdenas",
+      "role":""
+    },
+    {
+      "name":"Megan Cousins",
+      "role":""
+    },
+    {
+      "name":"Megan Ives",
+      "role":""
+    },
+    {
+      "name":"Melissa Devlin",
+      "role":""
+    },
+    {
+      "name":"Nhi Nguyen",
+      "role":""
+    },
+    {
+      "name":"Paige Applegate",
+      "role":""
+    },
+    {
+      "name":"Sally Lambert",
+      "role":""
+    },
+    {
+      "name":"Sam Peletier",
+      "role":""
+    },
+    {
+      "name":"Sara Taggart",
+      "role":"Captain"
+    },
+    {
+      "name":"Sarah Pesch",
+      "role":""
+    },
+    {
+      "name":"Stacy Gaskill",
+      "role":"Practice Player"
+    },
+    {
+      "name":"Victoria Elmore",
+      "role":"Practice Player"
+    },
+    {
+      "name":"Carolyn Matthews",
+      "role":"Coach"
+    },
+    {
+      "name":"Joe Durst",
+      "role":"Coach"
+    }
+  ],
+  "2017List":[
+    {
+      "name":"Becca Miller",
+      "role":""
+    },
+    {
+      "name":"Carolyn Vlach",
+      "role":"Rookie"
+    },
+    {
+      "name":"Christina Mickle",
+      "role":""
+    },
+    {
+      "name":"Claire Chastain",
+      "role":"Captain"
+    },
+    {
+      "name":"Claire McKeever",
+      "role":"Rookie"
+    },
+    {
+      "name":"Dena Slattery",
+      "role":""
+    },
+    {
+      "name":"Hannah Leathers",
+      "role":"Rookie"
+    },
+    {
+      "name":"Jesse Shofner",
+      "role":"Rookie"
+    },
+    {
+      "name":"Kirstin Johnson",
+      "role":""
+    },
+    {
+      "name":"Lauren Baecher",
+      "role":""
+    },
+    {
+      "name":"Lauren Boyle",
+      "role":""
+    },
+    {
+      "name":"Lisa Pitcaithley",
+      "role":""
+    },
+    {
+      "name":"Lisi Lohre",
+      "role":""
+    },
+    {
+      "name":"Liza Minor",
+      "role":"Rookie"
+    },
+    {
+      "name":"Maggie Chen",
+      "role":""
+    },
+    {
+      "name":"Manuela Cárdenas",
+      "role":"Rookie"
+    },
+    {
+      "name":"Megan Cousins",
+      "role":""
+    },
+    {
+      "name":"Megan Ives",
+      "role":""
+    },
+    {
+      "name":"Melissa Devlin",
+      "role":"Rookie"
+    },
+    {
+      "name":"Nhi Nguyen",
+      "role":""
+    },
+    {
+      "name":"Paige Applegate",
+      "role":""
+    },
+    {
+      "name":"Sally Lambert",
+      "role":""
+    },
+    {
+      "name":"Sam Peletier",
+      "role":""
+    },
+    {
+      "name":"Sara Taggart",
+      "role":""
+    },
+    {
+      "name":"Sarah Pesch",
+      "role":"Rookie"
+    },
+    {
+      "name":"Victoria Elmore",
+      "role":"Rookie"
+    },
+    {
+      "name":"Ashley Daly Morgan",
+      "role":"Practice Player"
+    },
+    {
+      "name":"Carolyn Matthews",
+      "role":"Coach"
+    },
+    {
+      "name":"Joe Durst",
+      "role":"Coach"
+    }
+  ],
+  "2016List":[
+    {
+      "name":"Alicia White",
+      "role":"Captain"
+    },
+    {
+      "name":"Ashley Daly Morgan",
+      "role":""
+    },
+    {
+      "name":"Becca Miller",
+      "role":""
+    },
+    {
+      "name":"Christina Mickle",
+      "role":""
+    },
+    {
+      "name":"Claire Chastain",
+      "role":"Captain"
+    },
+    {
+      "name":"Crystal Davis",
+      "role":""
+    },
+    {
+      "name":"Dena Slattery",
+      "role":""
+    },
+    {
+      "name":"Dori Franklin",
+      "role":""
+    },
+    {
+      "name":"Kirstin Johnson",
+      "role":""
+    },
+    {
+      "name":"Lauren Baecher",
+      "role":""
+    },
+    {
+      "name":"Lauren Boyle",
+      "role":""
+    },
+    {
+      "name":"Lisa Pitcaithley",
+      "role":"Rookie"
+    },
+    {
+      "name":"Lisi Lohre",
+      "role":""
+    },
+    {
+      "name":"Maggie Chen",
+      "role":"Captain"
+    },
+    {
+      "name":"Megan Cousins",
+      "role":""
+    },
+    {
+      "name":"Megan Ives",
+      "role":"Rookie"
+    },
+    {
+      "name":"Nhi Nguyen",
+      "role":""
+    },
+    {
+      "name":"Opi Payne",
+      "role":""
+    },
+    {
+      "name":"Paige Applegate",
+      "role":""
+    },
+    {
+      "name":"Sally Lambert",
+      "role":""
+    },
+    {
+      "name":"Sam Peletier",
+      "role":""
+    },
+    {
+      "name":"Sara Taggart",
+      "role":""
+    },
+    {
+      "name":"Tania Reitz",
+      "role":""
+    },
+    {
+      "name":"Tina Snodgrass",
+      "role":""
+    },
+    {
+      "name":"Jean Russell",
+      "role":"Practice Player"
+    },
+    {
+      "name":"Joe Durst",
+      "role":"Coach"
+    }
+  ],
+  "2015List":[
+    {
+      "name":"Alicia White",
+      "role":"Rookie"
+    },
+    {
+      "name":"Ashley Daly Morgan",
+      "role":"Rookie"
+    },
+    {
+      "name":"Anna Schott",
+      "role":""
+    },
+    {
+      "name":"Becca Miller",
+      "role":"Rookie"
+    },
+    {
+      "name":"Carolyn Matthews",
+      "role":"Captain"
+    },
+    {
+      "name":"Christina Mickle",
+      "role":""
+    },
+    {
+      "name":"Claire Chastain",
+      "role":"Captain"
+    },
+    {
+      "name":"Claire Henly",
+      "role":""
+    },
+    {
+      "name":"Crystal Davis",
+      "role":"Rookie"
+    },
+    {
+      "name":"Dena Slattery",
+      "role":""
+    },
+    {
+      "name":"Dori Franklin",
+      "role":""
+    },
+    {
+      "name":"Jana Krutsinger",
+      "role":""
+    },
+    {
+      "name":"Katie Patterson",
+      "role":""
+    },
+    {
+      "name":"Kirstin Johnson",
+      "role":""
+    },
+    {
+      "name":"Lauren Boyle",
+      "role":""
+    },
+    {
+      "name":"Lindsey Cross",
+      "role":""
+    },
+    {
+      "name":"Lisa Doan",
+      "role":""
+    },
+    {
+      "name":"Lisi Lohre",
+      "role":""
+    },
+    {
+      "name":"Maggie Chen",
+      "role":"Captain"
+    },
+    {
+      "name":"Megan Cousins",
+      "role":""
+    },
+    {
+      "name":"Opi Payne",
+      "role":"Rookie"
+    },
+    {
+      "name":"Paige Applegate",
+      "role":""
+    },
+    {
+      "name":"Sally Lambert",
+      "role":""
+    },
+    {
+      "name":"Sam Peletier",
+      "role":"Rookie"
+    },
+    {
+      "name":"Sara Taggart",
+      "role":"Rookie"
+    },
+    {
+      "name":"Tania Reitz",
+      "role":"Rookie"
+    },
+    {
+      "name":"Tina Snodgrass",
+      "role":""
+    },
+    {
+      "name":"Christy Cheung",
+      "role":"Practice Player"
+    },
+    {
+      "name":"Hilary Walker",
+      "role":"Practice Player"
+    },
+    {
+      "name":"Megan Ives",
+      "role":"Practice Player"
+    },
+    {
+      "name":"Nhi Nguyen",
+      "role":"Practice Player"
+    },
+    {
+      "name":"Michael Whitaker",
+      "role":"Coach"
+    }
+  ],
+  "2014List":[
+    {
+      "name":"Anna Updyke",
+      "role":""
+    },
+    {
+      "name":"Carolyn Matthews",
+      "role":"Captain"
+    },
+    {
+      "name":"Christina Mickle",
+      "role":""
+    },
+    {
+      "name":"Christy Cheung",
+      "role":"Rookie"
+    },
+    {
+      "name":"Claire Chastain",
+      "role":"Rookie"
+    },
+    {
+      "name":"Claire Henly",
+      "role":""
+    },
+    {
+      "name":"Dena Slattery",
+      "role":""
+    },
+    {
+      "name":"Dori Franklin",
+      "role":""
+    },
+    {
+      "name":"Emily Stege",
+      "role":""
+    },
+    {
+      "name":"Jana Krutsinger",
+      "role":""
+    },
+    {
+      "name":"Jean Russell",
+      "role":"Rookie"
+    },
+    {
+      "name":"Lauren Baecher",
+      "role":"Rookie"
+    },
+    {
+      "name":"Lauren Boyle",
+      "role":""
+    },
+    {
+      "name":"Lindsey Cross",
+      "role":"Captain"
+    },
+    {
+      "name":"Lisa Doan",
+      "role":""
+    },
+    {
+      "name":"Lisi Lohre",
+      "role":""
+    },
+    {
+      "name":"Maggie Chen",
+      "role":"Captain"
+    },
+    {
+      "name":"Megan Cousins",
+      "role":""
+    },
+    {
+      "name":"Paige Applegate",
+      "role":""
+    },
+    {
+      "name":"Sally Lambert",
+      "role":""
+    },
+    {
+      "name":"Shannon Waugh",
+      "role":""
+    },
+    {
+      "name":"Stephanie Frost",
+      "role":"Rookie"
+    },
+    {
+      "name":"Tina McDowell",
+      "role":""
+    },
+    {
+      "name":"Tina Snodgrass",
+      "role":""
+    },
+    {
+      "name":"Nhi Nguyen",
+      "role":"Practice Player"
+    }
+  ],
+  "2013List":[
+    {
+      "name":"Amanda Good",
+      "role":""
+    },
+    {
+      "name":"Anna Updyke",
+      "role":"Rookie"
+    },
+    {
+      "name":"Brenna Hokanson",
+      "role":""
+    },
+    {
+      "name":"Carolyn Matthews",
+      "role":""
+    },
+    {
+      "name":"Claire Henly",
+      "role":"Rookie"
+    },
+    {
+      "name":"Dena Slattery",
+      "role":""
+    },
+    {
+      "name":"Dori Franklin",
+      "role":"Rookie"
+    },
+    {
+      "name":"Emily Stege",
+      "role":""
+    },
+    {
+      "name":"Kaci Cessna",
+      "role":"Rookie"
+    },
+    {
+      "name":"Kelley Kneib",
+      "role":""
+    },
+    {
+      "name":"Leah Borsheim",
+      "role":""
+    },
+    {
+      "name":"Lauren Boyle",
+      "role":"Captain"
+    },
+    {
+      "name":"Lindsey Cross",
+      "role":"Captain"
+    },
+    {
+      "name":"Lisa Doan",
+      "role":"Rookie"
+    },
+    {
+      "name":"Maggie Chen",
+      "role":""
+    },
+    {
+      "name":"Megan Cousins",
+      "role":""
+    },
+    {
+      "name":"Natalie Plaza",
+      "role":""
+    },
+    {
+      "name":"Nhi Nguyen",
+      "role":"Rookie"
+    },
+    {
+      "name":"Paige Applegate",
+      "role":"Rookie"
+    },
+    {
+      "name":"Rebecca Mitchell",
+      "role":""
+    },
+    {
+      "name":"Sally Lambert",
+      "role":""
+    },
+    {
+      "name":"Sophia Herscu",
+      "role":"Rookie"
+    },
+    {
+      "name":"Steph Shea",
+      "role":""
+    },
+    {
+      "name":"Tina McDowell",
+      "role":""
+    },
+    {
+      "name":"Tina Snodgrass",
+      "role":""
+    },
+    {
+      "name":"Whitney Fose",
+      "role":""
+    },
+    {
+      "name":"Meg Henderson",
+      "role":"Practice Player"
+    },
+    {
+      "name":"Catt Wilson",
+      "role":"Coach"
+    }
+  ],
+  "2012List":[
+    {
+      "name":"Amanda Good",
+      "role":""
+    },
+    {
+      "name":"Anna Schott",
+      "role":""
+    },
+    {
+      "name":"Anne Pogoriler",
+      "role":""
+    },
+    {
+      "name":"Brenna Hokanson",
+      "role":"Rookie"
+    },
+    {
+      "name":"Carolyn Matthews",
+      "role":""
+    },
+    {
+      "name":"Chelsea Boyle",
+      "role":""
+    },
+    {
+      "name":"Christina Mickle",
+      "role":"Rookie"
+    },
+    {
+      "name":"Enessa Janes",
+      "role":"Captain"
+    },
+    {
+      "name":"Emily Hanson",
+      "role":""
+    },
+    {
+      "name":"Emily Stege",
+      "role":"Rookie"
+    },
+    {
+      "name":"Jana Krutsinger",
+      "role":""
+    },
+    {
+      "name":"Jessi Witt",
+      "role":"Rookie"
+    },
+    {
+      "name":"Kath Ratcliff",
+      "role":""
+    },
+    {
+      "name":"Katie Richgels",
+      "role":""
+    },
+    {
+      "name":"Kelley Kneib",
+      "role":""
+    },
+    {
+      "name":"Lauren Boyle",
+      "role":"Captain"
+    },
+    {
+      "name":"Leah Brooks",
+      "role":""
+    },
+    {
+      "name":"Leslie Schein",
+      "role":""
+    },
+    {
+      "name":"Lindsey Cross",
+      "role":"Captain"
+    },
+    {
+      "name":"Lisa Doan",
+      "role":"Rookie"
+    },
+    {
+      "name":"Maggie Chen",
+      "role":""
+    },
+    {
+      "name":"Mary Huisenga",
+      "role":""
+    },
+    {
+      "name":"Megan Cousins",
+      "role":"Rookie"
+    },
+    {
+      "name":"Natalie Plaza",
+      "role":"Rookie"
+    },
+    {
+      "name":"Rebecca Mitchell",
+      "role":"Rookie"
+    },
+    {
+      "name":"Sally Lambert",
+      "role":""
+    },
+    {
+      "name":"Tina McDowell",
+      "role":""
+    },
+    {
+      "name":"Whitney Fose",
+      "role":""
+    },
+    {
+      "name":"Catt Wilson",
+      "role":"Coach"
+    }
+  ],
+  "2011List":[
+    {
+      "name":"Amanda Good",
+      "role":""
+    },
+    {
+      "name":"Anna Schott",
+      "role":""
+    },
+    {
+      "name":"Anne Pogoriler",
+      "role":""
+    },
+    {
+      "name":"Chelsea Boyle",
+      "role":"Rookie"
+    },
+    {
+      "name":"Dena Slattery",
+      "role":""
+    },
+    {
+      "name":"Emily Hanson",
+      "role":""
+    },
+    {
+      "name":"Enessa Janes",
+      "role":"Rookie"
+    },
+    {
+      "name":"Jamie Anderson",
+      "role":""
+    },
+    {
+      "name":"Jana Krutsinger",
+      "role":""
+    },
+    {
+      "name":"Kath Ratcliff",
+      "role":""
+    },
+    {
+      "name":"Kelley Kneib",
+      "role":""
+    },
+    {
+      "name":"Lauren Boyle",
+      "role":"Rookie"
+    },
+    {
+      "name":"Leah Borsheim",
+      "role":""
+    },
+    {
+      "name":"Leah Brooks",
+      "role":"Rookie"
+    },
+    {
+      "name":"Leslie Schein",
+      "role":""
+    },
+    {
+      "name":"Lindsey Cross",
+      "role":"Captain"
+    },
+    {
+      "name":"Maggie Chen",
+      "role":"Rookie"
+    },
+    {
+      "name":"Mary Huisenga",
+      "role":"Rookie"
+    },
+    {
+      "name":"Melanie Deaver",
+      "role":"Rookie"
+    },
+    {
+      "name":"Michelle Ng",
+      "role":"Rookie"
+    },
+    {
+      "name":"Sally Lambert",
+      "role":"Rookie"
+    },
+    {
+      "name":"Sara Hill",
+      "role":""
+    },
+    {
+      "name":"Steph Shea",
+      "role":""
+    },
+    {
+      "name":"Tina McDowell",
+      "role":"Rookie"
+    },
+    {
+      "name":"Tina Snodgrass",
+      "role":"Rookie"
+    },
+    {
+      "name":"Whitney Fose",
+      "role":"Rookie"
+    },
+    {
+      "name":"Yelena Onnen",
+      "role":""
+    },
+    {
+      "name":"Catt Wilson",
+      "role":"Coach"
+    }
+  ],
+  "2010List":[
+    {
+      "name":"Amanda Good",
+      "role":""
+    },
+    {
+      "name":"Anna Schott",
+      "role":"Captain"
+    },
+    {
+      "name":"Anne Pogoriler",
+      "role":"Captain"
+    },
+    {
+      "name":"Beth Goldstone",
+      "role":""
+    },
+    {
+      "name":"Dena Slattery",
+      "role":""
+    },
+    {
+      "name":"Emily Hanson",
+      "role":""
+    },
+    {
+      "name":"Jamie Anderson",
+      "role":""
+    },
+    {
+      "name":"Jana Krutsinger",
+      "role":""
+    },
+    {
+      "name":"Kath Ratcliff",
+      "role":""
+    },
+    {
+      "name":"Kelley Kneib",
+      "role":""
+    },
+    {
+      "name":"Leah Borsheim",
+      "role":""
+    },
+    {
+      "name":"Leslie Schein",
+      "role":""
+    },
+    {
+      "name":"Lindsey Cross",
+      "role":""
+    },
+    {
+      "name":"Michelle Groscost",
+      "role":""
+    },
+    {
+      "name":"Sara Hill",
+      "role":""
+    },
+    {
+      "name":"Shannon Waugh",
+      "role":""
+    },
+    {
+      "name":"Sophia Herscu",
+      "role":""
+    },
+    {
+      "name":"Steph Shea",
+      "role":""
+    },
+    {
+      "name":"Yelena Onnen",
+      "role":""
+    },
+    {
+      "name":"Catt Wilson",
+      "role":"Coach"
+    }
   ]
 }

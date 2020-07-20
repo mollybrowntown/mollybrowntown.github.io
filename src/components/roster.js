@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck';
+import Alert from 'react-bootstrap/Alert';
+// import CardDeck from 'react-bootstrap/CardDeck';
 import { Element } from 'react-scroll';
+import Button from 'react-bootstrap/Button';
 // import { Text, StyleSheet } from "react-native";
 import data from "./data";
 import {
@@ -10,7 +12,62 @@ import {
   isBrowser,
   isMobile
 } from "react-device-detect";
+import Modal from 'react-bootstrap/Modal';
 class Roster extends Component{
+  constructor(props,context){
+        super(props,context);
+        this.handleShow = this.handleShow.bind(this);
+		this.handleClose = this.handleClose.bind(this);
+        this.state = {
+            show : false,
+            name: "",
+            image:"",
+            years:"",
+            pronoun:"",
+            hometown:"",
+            birthday: "",
+
+        }
+    }
+
+    handleModalShowHide(name,image,years,pronoun,hometown,birthday) {
+      console.log(image)
+        this.setState(
+          { showHide: !this.state.showHide,
+            name:name,
+            image:image,
+            years:years,
+            pronoun:pronoun,
+            hometown:hometown,
+            birthday:birthday
+          })
+    }
+    handleClose() {
+		this.setState({ show: false });
+	}
+
+	handleShow(name,image,years,pronoun,hometown,birthday) {
+		this.setState(
+      { show: true,
+        name:name,
+        image:image,
+        years:years,
+        pronoun:pronoun,
+        hometown:hometown,
+        birthday:birthday
+      });
+	}
+  //   getInitialState(){
+  //   return { showModal: false };
+  // },
+  //
+  // close(){
+  //   this.setState({ showModal: false });
+  // },
+  //
+  // open(){
+  //   this.setState({ showModal: true });
+  // },
   // state = {
   //   card: []
   // };
@@ -35,31 +92,42 @@ class Roster extends Component{
         <p>ok</p>
       )
     }
-    // data.current.map((rost,i) => {
-    //       return(
-    //         if(rost.birthday){
-    //           <p>ok</p>
-    //         }
-    //       )
-    //if()
-// return(
-//     <div>{data.current.map((rost,i) => {
-//           return(
-//
-//           )
-//         })
-//       }
-//     </div>
-//   )
   }
+
 render(){
+  const mod = this.state.modal;
   return(
     <Element id='roster' name='roster'>
       <div className="roster">
     <BrowserView>
-      <h1 className="roster-header">2019 Roster</h1><hr/>
+      <h1 className="roster-header">2020 Roster</h1><hr/>
     <div className="roster-grid">{data.current.map((rost,i) => {
-      if(rost.nickname == ""){
+      let birth = new Date(rost.birthday)
+      let birthdayToday = String(birth.getMonth())+ '/'+String(birth.getDate()) === String(new Date().getMonth())+'/'+String(new Date().getDate()) ? true : false
+      if(rost.nickname === ""){
+
+        if (birthdayToday){
+          return(
+
+    <Card key={i} shadow={5} style={{maxWidth:'1000%'}}>
+      <Card.Header>{rost.name} &nbsp; <i class="fa fa-birthday-cake" aria-hidden="true"></i></Card.Header>
+      <Card.Img variant="top" style={{color:'#fff', height:'350px', background:"url("+rost.image+")center /cover"}}/>
+      <Card.Body>
+      <Card.Text style={{fontSize:'14px'}}>
+        <span><b>Years with MB:</b> {rost.years}</span><br></br>
+        <span><b>Pronouns:</b> {rost.pronoun}</span><br></br>
+        <span><b>Hometown:</b> {rost.hometown}</span><br></br>
+        <span><b>Birthday:</b> {rost.birthdayLong}</span><br></br>
+        <br></br>
+      </Card.Text>
+      <Card.Text>
+        <small className="text-muted">Photo by: {rost.credit}</small>
+      </Card.Text>
+    </Card.Body>
+    </Card>
+
+  )
+        }else{
           return(
 
     <Card key={i} shadow={5} style={{maxWidth:'1000%'}}>
@@ -73,12 +141,39 @@ render(){
         <span><b>Birthday:</b> {rost.birthdayLong}</span><br></br>
         <br></br>
       </Card.Text>
+      <Card.Text>
+        <small className="text-muted">Photo by: {rost.credit}</small>
+      </Card.Text>
     </Card.Body>
     </Card>
 
   )
+}
 }else{
-  return(
+
+    if (birthdayToday){
+      return(
+
+<Card key={i} shadow={5} style={{maxWidth:'1000%'}}>
+  <Card.Header>{rost.name} &nbsp; <i class="fa fa-birthday-cake" aria-hidden="true"></i></Card.Header>
+  <Card.Img variant="top" style={{color:'#fff', height:'350px', background:"url("+rost.image+")center /cover"}}/>
+  <Card.Body>
+  <Card.Text style={{fontSize:'14px'}}>
+    <span><b>Years with MB:</b> {rost.years}</span><br></br>
+    <span><b>Pronouns:</b> {rost.pronoun}</span><br></br>
+    <span><b>Hometown:</b> {rost.hometown}</span><br></br>
+    <span><b>Birthday:</b> {rost.birthdayLong}</span><br></br>
+    <br></br>
+  </Card.Text>
+  <Card.Text>
+    <small className="text-muted">Photo by: {rost.credit}</small>
+  </Card.Text>
+</Card.Body>
+</Card>
+
+)
+    }else{
+      return(
     <Card key={i} shadow={5} style={{height:"100%",maxWidth:'100%'}}>
       <Card.Header>{rost.name}</Card.Header>
     <Card.Img variant="top" style={{color:'#fff', height:'350px', background:"url("+rost.image+")center /cover"}}/>
@@ -90,30 +185,138 @@ render(){
     <span><b>Hometown:</b> {rost.hometown}</span><br></br>
     <span><b>Birthday:</b> {rost.birthdayLong}</span><br></br>
     </Card.Text>
+    <Card.Text>
+      <small className="text-muted">Photo by: {rost.credit}</small>
+    </Card.Text>
     </Card.Body>
     </Card>
+  )
+  }
 
-)
+
 }
+
 
 })
 }
 </div>
 <hr/><div className="roster-footer">
-  <p>Practice Player: Akane Kleinkopf</p>
   <p>* denotes captain</p>
 </div>
 </BrowserView>
 <MobileView>
-  <h3 className="roster-header">2019 Roster</h3><hr/>
-  <div className="roster-grid-mob">{data.currentList.map((rost,i) => {
-    if(rost.role != ""){
+  <h3 className="roster-header">2020 Roster</h3><hr/>
+  <div className="roster-grid-mob">{data.current.map((rost,i) => {
+    let birth = new Date(rost.birthday)
+    let birthdayToday = String(birth.getMonth())+ '/'+String(birth.getDate()) === String(new Date().getMonth())+'/'+String(new Date().getDate()) ? true : false
+    if(rost.role !== ""){
+      if(birthdayToday){
+        return(
+          <div>
+        <p className="roster-mob" onClick={()=>this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong)}><b>{rost.fullName}</b>{" ("+rost.role+")"}&nbsp; <i class="fa fa-birthday-cake" aria-hidden="true"></i></p>
+        <Modal show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
+     <Modal.Header closeButton onClick={this.handleClose}>
+     <Modal.Title>{this.state.name}</Modal.Title>
+     </Modal.Header>
+     <Modal.Body>
+     <img src={this.state.image} class="img-fluid"/>
+     <span><b>Years with MB:</b> {this.state.years}</span><br></br>
+     <span><b>Pronouns:</b> {this.state.pronoun}</span><br></br>
+     <span><b>Hometown:</b> {this.state.hometown}</span><br></br>
+     <span><b>Birthday:</b> {this.state.birthday}</span><br></br>
+     </Modal.Body>
+     <Modal.Footer>
+     <Button variant="secondary" onClick={this.handleClose}>
+         Close
+     </Button>
+
+     </Modal.Footer>
+ </Modal>
+        </div>
+      )
+      }else{
+        return(
+          <div>
+        <p className="roster-mob" onClick={()=>this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong)}><b>{rost.fullName}</b>{" ("+rost.role+")"}</p>
+
+
+                       <Modal show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
+                    <Modal.Header closeButton onClick={this.handleClose}>
+                    <Modal.Title>{this.state.name}</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                    <img src={this.state.image} class="img-fluid"/>
+                    <span><b>Years with MB:</b> {this.state.years}</span><br></br>
+                    <span><b>Pronouns:</b> {this.state.pronoun}</span><br></br>
+                    <span><b>Hometown:</b> {this.state.hometown}</span><br></br>
+                    <span><b>Birthday:</b> {this.state.birthday}</span><br></br>
+                    </Modal.Body>
+                    <Modal.Footer>
+                    <Button variant="secondary" onClick={this.handleClose}>
+                        Close
+                    </Button>
+
+                    </Modal.Footer>
+                </Modal>
+        </div>
+
+
+
+      )
+      }
+
+}else{
+  if(birthdayToday){
     return(
-    <p className="roster-mob"><b>{rost.name}</b>{" ("+rost.role+")"}</p>
-  )}else{
-    return(
-    <p className="roster-mob"><b>{rost.name}</b></p>
+      <div>
+    <p className="roster-mob" onClick={()=>this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong)}><b>{rost.fullName}&nbsp; <i class="fa fa-birthday-cake" aria-hidden="true"></i></b></p>
+    <Modal show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
+ <Modal.Header closeButton onClick={this.handleClose}>
+ <Modal.Title>{this.state.name}</Modal.Title>
+ </Modal.Header>
+ <Modal.Body>
+ <img src={this.state.image} class="img-fluid"/>
+ <span><b>Years with MB:</b> {this.state.years}</span><br></br>
+ <span><b>Pronouns:</b> {this.state.pronoun}</span><br></br>
+ <span><b>Hometown:</b> {this.state.hometown}</span><br></br>
+ <span><b>Birthday:</b> {this.state.birthday}</span><br></br>
+ </Modal.Body>
+ <Modal.Footer>
+ <Button variant="secondary" onClick={this.handleClose}>
+     Close
+ </Button>
+
+ </Modal.Footer>
+</Modal>
+</div>
   )
+  }
+  else{
+    return(
+      <div>
+    <p className="roster-mob" onClick={() => this.handleShow(rost.name,rost.image,rost.years,rost.pronoun,rost.hometown,rost.birthdayLong)}><b>{rost.fullName}</b></p>
+    <Modal show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
+ <Modal.Header closeButton onClick={this.handleClose}>
+ <Modal.Title>{this.state.name}</Modal.Title>
+ </Modal.Header>
+ <Modal.Body>
+ <img src={this.state.image} class="img-fluid"/>
+ <span><b>Years with MB:</b> {this.state.years}</span><br></br>
+ <span><b>Pronouns:</b> {this.state.pronoun}</span><br></br>
+ <span><b>Hometown:</b> {this.state.hometown}</span><br></br>
+ <span><b>Birthday:</b> {this.state.birthday}</span><br></br>
+ </Modal.Body>
+ <Modal.Footer>
+ <Button variant="secondary" onClick={this.handleClose}>
+     Close
+ </Button>
+
+ </Modal.Footer>
+</Modal>
+    </div>
+  )
+  }
+
   }
   })}
 </div>
