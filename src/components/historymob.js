@@ -186,7 +186,10 @@ render(){
                       Virginia Fusion <br/> <b>2nd</b> <br/> Axton, VA <br/> September 17th-18th<br/>
                       Labor Day <br/> <b>3rd</b> <br/> Santa Cruz, CA <br/> September 3rd-4th<br/>
                       Colorado Cup <br/> <b>5th</b> <br/> Boulder, CO <br/> July 30th-31st<br/>
-
+                      <br/>Roster:<br/>
+                      <ul>
+                      {this.rosterList('2011')}
+                    </ul>
                     </Card.Body>
                   </Accordion.Collapse>
               </Card>
@@ -206,6 +209,7 @@ render(){
                       <ul>
                       {this.rosterList('2010')}
                       </ul>
+                      <i>*Molly Brown is established this year</i>
                     </Card.Body>
                   </Accordion.Collapse>
               </Card>

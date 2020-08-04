@@ -4,9 +4,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Swipeable } from 'react-swipeable';
 import Carousel from 'react-bootstrap/Carousel';
-import banner1 from '../assets/banner1.jpg'
-import banner2 from '../assets/banner2.jpg'
-import banner3 from '../assets/banner3.jpg'
+import banner1 from '../assets/banner1-min.jpg'
+import banner2 from '../assets/banner2-min.jpg'
+import banner3 from '../assets/banner3-min.jpg'
 import {
   BrowserView,
   MobileView,
@@ -48,7 +48,7 @@ class Main extends Component{
     <img
       className="d-block w-100"
       src={banner1}
-      alt="First slide"
+      alt="team pic 1"
     />
 
       <BrowserView>
@@ -68,7 +68,7 @@ class Main extends Component{
     <img
       className="d-block w-100"
       src={banner2}
-      alt="Third slide"
+      alt="team pic 2"
     />
 
     {/* <Carousel.Caption>
@@ -80,7 +80,7 @@ class Main extends Component{
     <img
       className="d-block w-100"
       src={banner3}
-      alt="Third slide"
+      alt="team pic 3"
     />
 
     {/* <Carousel.Caption>
